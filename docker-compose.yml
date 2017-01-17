@@ -1,4 +1,4 @@
-client:
+web:
     build: .
     ports:
         - "3030:3030"
