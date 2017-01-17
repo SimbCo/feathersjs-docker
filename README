@@ -1,0 +1,9 @@
+Getting Started
+
+First you need to build the image.
+
+docker-compose build
+
+Then you need to generate the application as is described in the getting started feathers documentation https://docs.feathersjs.com/getting-started/scaffolding.html
+
+docker-compose run --rm web feathers generate
