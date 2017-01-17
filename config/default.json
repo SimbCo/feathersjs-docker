@@ -1,0 +1,20 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "postgres": "postgres://postgres:@localhost:5432/Groupix",
+  "public": "../public/",
+  "auth": {
+    "idField": "id",
+    "token": {
+      "secret": "Qfu+89lWRjNwtlNYaJq4+tyGYV4Q9YiQ0OomabcUUo5LqJDLPxElwuYp1f1qcklFPwKTAmEa9QH1Y/7XN3yqCA=="
+    },
+    "local": {},
+    "facebook": {
+      "clientID": "your facebook client id",
+      "clientSecret": "your facebook client secret",
+      "permissions": {
+        "scope": ["public_profile","email"]
+      }
+    }
+  }
+}
